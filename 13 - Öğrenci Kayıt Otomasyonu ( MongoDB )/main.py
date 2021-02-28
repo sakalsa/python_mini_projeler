@@ -11,7 +11,7 @@
 """
 from pymongo import MongoClient
 
-db = MongoClient(host='localhost', port=27017)['db_ogrenciler']
+db = MongoClient(host='localhost', port=27017, username="dmtr", password="1",)['db_ogrenciler']
 table = db['ogrenci']
 
 

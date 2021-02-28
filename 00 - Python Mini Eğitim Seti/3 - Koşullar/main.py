@@ -11,7 +11,7 @@
     Örnekte daha anlaşılır olacaktır.
 """
 
-x = 5  # x sayısını başta 5'e eşitledik
+x = 4  # x sayısını başta 5'e eşitledik
 
 if x == 5:  # eğer x, 5'e eşitse (!!!) burada eşittir koşulu
     print("x, 5'e eşittir!")  # == işareti ile ve koşul sonrasında : kullanılması mecburidir

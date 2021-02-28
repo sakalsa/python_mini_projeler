@@ -45,7 +45,7 @@ for i in re.findall(r_aciklama, site):
     aciklama.append(i)
 
 print("-" * 75)
-print("                         BURSA HAVA DURUMU")
+print("                         BURSA MERKEZ HAVA DURUMU")
 print("-" * 75)
 for i in range(0, len(gun)):
     print("{} {},\n\t\t\t\t\tgündüz: {} °C\tgece: {} °C\t{}".format(tarih[i], gun[i], gunduz[i], gece[i], aciklama[i]))
